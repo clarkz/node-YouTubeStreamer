@@ -13,7 +13,7 @@ var numCPUs = require('os').cpus().length;
 
 // Where should we listen for requests?
 var IP = process.argv[2] || '127.0.0.1';
-var PORT = Number(process.argv[3] || 8000);
+var PORT = Number(process.argv[3] || 443);
 
 // If this is the master process, fork child process
 if(cluster.isMaster){
