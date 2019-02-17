@@ -42,7 +42,7 @@ else{
 	var server = http.createServer(streamer());
 	
 	// Listen on the specified IP and port.
-	server.listen(PORT,IP,function(){
-		console.log('Server #%d listening at %s:%d',process.pid,IP,PORT);
+	server.listen(PORT,null,function(){
+		console.log('Server #%d listening at %s:%d',process.pid,'*',PORT);
 	});
 }

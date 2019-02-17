@@ -1,0 +1,28 @@
+{
+  "name": "youtubestreamer",
+  "version": "1.0.0",
+  "description": "youtube proxy",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {
+    "m3u8": "^0.0.4",
+    "request": "^2.16.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clarkz/node-YouTubeStreamer.git"
+  },
+  "author": "copied",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/clarkz/node-YouTubeStreamer/issues"
+  },
+  "homepage": "https://github.com/clarkz/node-YouTubeStreamer#readme"
+}
